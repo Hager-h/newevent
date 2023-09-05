@@ -1,0 +1,62 @@
+
+.quest-con{
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px #f1e3e3;    -webkit-tap-highlight-color: transparent;
+
+    }
+
+
+.qu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px 25px;
+    color:#555;cursor: pointer;
+
+}
+.qu span{
+    font-size: 20px;
+    font-weight: 900;
+cursor:pointer;
+}
+.answer{
+background-color: white;
+/* max-height: 0;
+overflow: hidden;
+transition: 0.4s all cubic-bezier(0, 1, 0, 1);
+} */
+
+position: relative;
+height: 0;
+overflow: hidden;
+transition: all 1s ease;
+}
+
+
+
+
+
+
+
+.first-ans,.second-ans{
+    text-align: left;
+    margin-bottom: 4px;
+    color: gray;
+    font-weight: 600;
+    padding: 10px 15px; 
+
+}
+.shown{
+    height: auto;
+    max-height: 10000px;
+    transition:all 1s ease
+
+}
+
+@media(max-width:470px){
+    .first-ans, .second-ans {
+      
+        font-size: 14px;
+    }
+}

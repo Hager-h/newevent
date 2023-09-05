@@ -1,0 +1,28 @@
+.quest{
+    padding: 100px 0px;
+    background-color: #f9f9f9;
+}
+.quest .creative{
+    padding-bottom: 40px;
+}
+.div-quest {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+    
+@media(max-width:470px){
+
+    .creative h3 {
+        font-size: 25px;
+    }
+    .div-quest{
+        width: 100%;
+    }
+
+    
+}

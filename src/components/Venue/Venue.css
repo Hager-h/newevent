@@ -1,0 +1,56 @@
+.venu{
+    height:100vh;
+    background: url('../../images/venue-bg.jpg')fixed ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venu-text {
+    position: relative;
+   
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+.venu-text h3{
+    color:#333333;
+    font-size:35px;
+}
+.venu-text .venu-small{
+        text-align: left;
+        line-height: 1.8;
+        max-width: 546px;
+        color: gray;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 26px 0px;
+    
+}
+.venu-text p{
+        font-size: 20px;
+        font-weight: 900;
+        color:#333333;
+
+}
+@media(max-width:470px){
+    .venu-text p {
+        font-size: 17px;
+        color: #333333;
+    }
+    .venu-text .venu-small {
+      
+        color: #211b1b;
+        font-size: 16px;
+        
+    }
+}

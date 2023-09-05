@@ -1,0 +1,36 @@
+.footer{
+    padding: 100px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.footer span{
+    color:#f25
+
+}
+
+.footer ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer ul li{
+    width: 40px;
+    height: 40px;
+padding:10px 0px 4px 0px ;    border-radius: 50%;
+    background-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    -webkit-tap-highlight-color: transparent;
+}
+.footer ul li:not(:last-child){
+    margin-right: 20px;
+}
+
+.footer ul li:hover{
+    
+    background-color: #f25;
+    color:white
+}

@@ -1,0 +1,127 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+.home {
+    height:100vh;
+    background: url('../../images/intro-bg.jpg') fixed ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.home .home-infor {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.home-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #efecec;
+}
+
+
+
+.home .home-infor .home-desc {
+    line-height: 1.5;
+    COLOR: white;
+    font-weight: bolder;
+    font-size: 48px;
+
+    margin-bottom: 20px
+}
+
+.home-btn{
+    border: 1px solid white;
+background-color: transparent;    -webkit-tap-highlight-color: transparent;
+
+}
+.two{
+    background: #f2545f;
+
+}
+ .home-btn {
+    color: #fff;
+    font-size: 15px;
+    width: 177px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition:0.3s all
+}
+
+ .home-btn:hover {
+    background: #fff;
+    color:black
+    
+}
+.two:hover{
+    background-color:transparent;
+    color:white
+}
+
+.top{
+    display:none
+  }
+   .btnn.active{
+    display: block;
+  }
+   .btnn{
+        position: fixed;
+        color: #66ccff;
+        bottom: 0px;
+        right: 20px;
+        background: black;
+        font-weight: bolder;
+        font-size: 23px;
+        cursor: pointer;
+        padding:4px 8px;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .home-title {
+        font-size: 20px;
+        color: #fff
+    }
+    
+
+    
+    .home .home-infor .home-desc {
+        font-size: 16px
+    }
+
+  .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 0px;
+        align-items:center;
+        justify-content:center
+    }
+    .home-btn {
+        font-size: 11px;
+        width: 143px;
+        
+    }
+}
+
+@media (max-width:575px) {
+    .home-title {
+        font-size: 12px;
+    }
+}
+

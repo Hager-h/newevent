@@ -1,0 +1,28 @@
+.sponsor{
+    padding: 100px 0px;
+}
+.all-spons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+.spons {
+    width:200px;
+    border: 1px solid #ddd;
+    padding: 3px;    margin: 10px;
+
+    
+}
+.spons img{
+    max-width:100%
+}
+@media(max-width:540px){
+    .all-spons {
+     
+        justify-content: center;
+       
+}
+
+}

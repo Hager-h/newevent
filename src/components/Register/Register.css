@@ -1,0 +1,89 @@
+.register{
+
+    min-height:500px;
+    background: url('../../images/register-bg.jpg') fixed ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px 0px;
+    width:100%
+
+}
+form input{
+    background-color: transparent;
+    border:1px solid white;
+    padding: 12px 0px;
+    width:80%;
+    color:wheat;
+    text-indent:20px;
+
+
+}
+::placeholder{
+    padding: 12px;
+    font-size:14px;
+}
+.reg{
+    display:flex;
+    justify-content: spce-between;
+    align-items: flex-start;
+}
+
+.reg-btn-div {
+    display: flex;
+    justify-content: right;
+    padding: 10px 100px;
+}
+.reg-btn{
+
+        border-radius: 37px;
+        width: 191px;
+        font-size: 20px;
+        font-weight: bolder;
+        padding: 18px;
+        background: #f25;
+        border: none;
+        outline: none;
+        color: white;
+        margin: 20;
+        margin-top: 31px;
+    cursor: pointer;    -webkit-tap-highlight-color: transparent;
+
+
+}
+.reg-btn:hover{
+    background-color: aliceblue;
+    color: #f25;
+}
+@media(max-width:540px){
+
+    .reg {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+     
+        align-items: self-start;
+    
+    }
+
+    .reg-btn {
+        border-radius: 18px;
+    
+    }
+
+.register .video-overview form input{
+    width: 100%;
+}
+
+}

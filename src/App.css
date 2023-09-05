@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+/* For WebKit browsers (e.g. Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(107, 102, 102); /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e9636c /* Color of the scrollbar thumb */
+}
+

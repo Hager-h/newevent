@@ -1,0 +1,153 @@
+.contact{
+
+        min-height:100vh;
+        background: url('../../images/contact-bg.jpg') fixed ;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 0px;
+    
+}
+.contact .container{
+    display: flex;
+}
+
+.contact form input{
+border-bottom:1px solid #dddddd9e;
+color: black;font-weight: 700;
+font-size: 16px;
+text-indent:20px;
+
+}
+.contact form input:focus-visible{border:none;
+    outline:none;
+
+}
+.contact form textarea:focus-visible {
+    outline: none;
+border: none;}
+
+.contact form textarea{
+
+height: 166px;    width: 425px;
+border:1px solid #dddddd9e;
+color:black;
+outline: none;
+font-weight: 700;
+font-size: 16px;
+padding: 12px 0px;
+width: 80%;
+text-indent:20px;
+
+}
+
+
+
+.contact form input:focus,
+.contact form textarea:focus{
+
+    border-bottom: 1px solid #585656;
+
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder{
+font-size: 15px;
+padding-left: 20px;
+}
+
+
+
+.contact h3{
+        color: #776f6f;
+        font-size: 30px;
+        margin-bottom: 23px;
+  
+       
+            padding: 4px 21px;
+        
+        
+}
+.contact .reg-btn-div {
+    justify-content: left;
+    padding: 10px 53px;
+
+
+}
+.contact  .video-overview .reg-btn-div button{
+    background-color: black;
+    color:white;
+    -webkit-tap-highlight-color: transparent;
+}
+.contact  .video-overview .reg-btn-div button:hover{
+
+    background-color: #f25;
+    color:white;
+
+}.contact  .video-text .reg-btn-div button:hover{
+
+    background-color: black;
+    color:white;
+
+}
+
+.contact .video-overview,
+.contact .video-text{
+width:calc(100% /2);
+
+    max-width: calc(100% /2);
+    
+
+}
+.contact .video-text p {
+    color: #707070;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 14px 0px;
+    font-weight: 500;
+    padding: 4px 20px;
+}
+.contact .video-text .reg-btn  {
+   
+    width: 253px;
+    font-size: 20px;
+    padding: 29px 20px;
+    background: #f25;
+  
+}
+.contact .video-overview .reg-btn  {
+   
+    width: 253px;
+    font-size: 20px;
+    padding: 29px 20px;
+    margin-bottom: 20px;
+  
+}
+
+@media(max-width:540px){
+    .contact .container{
+        display:block;
+
+    }
+
+    .contact .video-overview,
+    .contact .video-text{
+width:100%;
+max-width:100%;
+    }
+    
+   
+.contact form input,
+.contact  form textarea{
+      
+        width: 80%;
+        margin: 0 auto;
+    
+}
+
+}
