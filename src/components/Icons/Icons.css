@@ -1,17 +1,15 @@
-.icons{
-    background: #222;
-display:flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
-padding: 100px 50px;
+.icons {
+  background: #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 50px;
 }
 
-@media(max-width:768px){
-
-.icons{
-    flex-wrap:wrap;
-    flex-direction:column
-}
-
+@media (max-width: 768px) {
+  .icons {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }

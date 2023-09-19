@@ -6,7 +6,7 @@
 }
 
 :root {
-  --main-color: #66ccff;
+  --main-color: #f2545f;
 }
 
 body {
@@ -24,8 +24,6 @@ h2 {
   font-size: 35px;
   font-weight: 600;
 }
-
-
 
 h4 {
   margin-bottom: 12px;
@@ -50,7 +48,7 @@ a:not(.video-section a) {
   align-items: center;
   background-color: transparent;
   padding: 20px 70px;
-  width:100%
+  width: 100%;
 }
 .header.active {
   background-color: #000;
@@ -69,13 +67,13 @@ a:not(.video-section a) {
   margin-right: 30px;
   position: relative;
 }
-#logo{
+#logo {
   color: #b8adad;
-  font-size:26px;
-  font-weight:bolder;
+  font-size: 26px;
+  font-weight: bolder;
 }
-.new{
-  color:var(--main-color);
+.new {
+  color: var(--main-color);
 }
 
 .close {
@@ -136,41 +134,22 @@ a:not(.video-section a) {
   right: 0px;
 }
 
-
-
-
-
-
-@media(max-width:1024px){
-
+@media (max-width: 1024px) {
   .ulLinks ul li a {
-     
-      font-size: 12px;
-    
+    font-size: 12px;
   }
-
 }
 
-
-@media(max-width:912px){
-
+@media (max-width: 912px) {
   .ulLinks ul li a {
-     
-      font-size: 8px;
-    
+    font-size: 8px;
   }
   #logo {
     color: #beb7b7;
     font-size: 24px;
     font-weight: bolder;
+  }
 }
-}
-
-
-
-
-
-
 
 @media (max-width: 820px) {
   .header {
@@ -184,8 +163,8 @@ a:not(.video-section a) {
     justify-content: flex-start;
     align-content: flex-start;
     flex-direction: column;
-    padding: 20px 25px;    margin-top: 46px;
-
+    padding: 20px 25px;
+    margin-top: 46px;
   }
 
   .keytwo.active:after {
@@ -230,7 +209,7 @@ a:not(.video-section a) {
 
   .close {
     font-size: 27px;
-  
+
     padding: 5px;
     cursor: pointer;
     display: block;
@@ -238,8 +217,7 @@ a:not(.video-section a) {
     position: absolute;
     top: 13px;
     left: 221px;
-   
-}
+  }
 
   .mobile {
     display: initial;
@@ -267,11 +245,10 @@ a:not(.video-section a) {
     padding: 20px 34px;
   }
 }
-@media(max-width:360px){
-
+@media (max-width: 360px) {
   .home-title {
     font-size: 11px;
-}
+  }
 }
 
 /* for header */

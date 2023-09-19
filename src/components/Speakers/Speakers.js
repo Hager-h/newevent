@@ -62,8 +62,7 @@ export default function Speakers() {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+    
     >
        {Dataspeakers.map(spe=>{
         return(

@@ -63,6 +63,28 @@ form input{
     background-color: aliceblue;
     color: #f25;
 }
+
+@media(max-width:763px){
+    .reg {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .video-text {
+        flex: 100%;
+      
+    }
+
+
+
+
+}
+
+
+
+
 @media(max-width:540px){
 
     .reg {

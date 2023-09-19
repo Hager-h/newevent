@@ -1,62 +1,59 @@
-
-.crspeakers{
-    background-color:#f9f9f9 ;
-    padding: 100px 0px;
+.crspeakers {
+  background-color: #f9f9f9;
+  padding: 100px 0px;
 }
 
-
-.speakers{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.speakers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.creative h3{
-    color: rgb(69 69 69);
-font-size: 30px;
-margin-bottom: 11px;
+.creative h3 {
+  color: rgb(69 69 69);
+  font-size: 30px;
+  margin-bottom: 11px;
 }
-.creative p{
-    color:rgb(147 147 147);
-    margin-bottom: 50px;
+.creative p {
+  color: rgb(147 147 147);
+  margin-bottom: 50px;
+}
 
+.creative span {
+  color: #f2545f;
 }
-
-.creative span{
-color:#f2545f;}
-.speaker img{
-    max-width:100%
+.speaker img {
+  max-width: 100%;
 }
-.text-speaker{
-    background-color:#ffffff ;
-    text-align: center;
+.text-speaker {
+  background-color: #ffffff;
+  text-align: center;
 }
-.text-speaker h4{
-    margin: 20px 0px 12px 0px;
-    font-size: 22px;
-} 
-.text-speaker p{
-    color:rgb(147 147 147);
-    font-weight: 600;
-    font-size: 15px;
-
+.text-speaker h4 {
+  margin: 20px 0px 12px 0px;
+  font-size: 22px;
+}
+.text-speaker p {
+  color: rgb(147 147 147);
+  font-weight: 600;
+  font-size: 15px;
 }
 .swiper-pagination {
-    position: relative !important;
-    margin-top: 40px!important
+  position: relative !important;
+  margin-top: 40px !important;
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
-    width: 15px;
-    height: 15px;
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+  width: 15px;
+  height: 15px;
 }
-.text-speaker{
-    padding: 20px 0px;
+.text-speaker {
+  padding: 20px 0px;
 }
-@media(max-width:540px){
-
-    .speaker {
-        width: 100%;
-    }
+@media (max-width: 540px) {
+  .speaker {
+    width: 100%;
+  }
 }
