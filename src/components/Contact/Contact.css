@@ -124,3 +124,11 @@
     margin: 0 auto;
   }
 }
+@media(max-width:280px){
+  .contact .video-text .reg-btn {
+    background: #f25;
+    font-size: 12px;
+    padding: 29px 20px;
+    width: 253px;
+}
+}

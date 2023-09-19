@@ -50,10 +50,3 @@
   }
 }
 
-@media(max-width:280px){
-  .contact .video-text .reg-btn {
-    font-size: 14px;
-    padding: 20px 34px;
-    width: 275px;
-}
-}
