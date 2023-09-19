@@ -109,3 +109,32 @@ form input{
 }
 
 }
+
+
+
+
+
+
+
+
+
+@media(max-width:280px){
+ 
+    .reg-btn {
+     
+        font-size: 16px;
+      
+    }
+
+    .reg-btn-div {
+        display: flex;
+        justify-content: center;
+        padding: 10px 100px;
+    }
+
+
+
+
+
+
+}
